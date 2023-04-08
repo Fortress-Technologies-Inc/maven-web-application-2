@@ -15,7 +15,7 @@ node
   
   stage("CheckOutCodeGit")
   {
-   git branch: 'development', credentialsId: '65fb834f-a83b-4fe7-8e11-686245c47a65', url: 'https://github.com/MithunTechnologiesDevOps/maven-web-application.git'
+   git branch: 'development', credentialsId: '65fb834f-a83b-4fe7-8e11-686245c47a65', url: 'https://github.com/Fortress-TechnologiesDevOps/maven-web-application.git'
  }
  
  stage("Build")
@@ -43,11 +43,11 @@ node
  
  stage('EmailNotification')
  {
- mail bcc: 'mylandmarktech@gmail.com', body: '''Build is over
+ mail bcc: 'Fortresstech@gmail.com', body: '''Build is over
 
  Thanks,
- Landmark Technologies,
- +14372152483.''', cc: 'mylandmarktech@gmail.com', from: '', replyTo: '', subject: 'Build is over!!', to: 'mylandmarktech@gmail.com'
+ FortressTechnologies,
+ +14372152483.''', cc: 'Fortresstech@gmail.com', from: '', replyTo: '', subject: 'Build is over!!', to: 'Fortresstech@gmail.com'
  }
  */
  
