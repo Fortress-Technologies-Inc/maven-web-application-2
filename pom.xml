@@ -12,8 +12,8 @@
 	<description>Maven Web Project for Java Project</description>
 
 	<organization>
-		<name>Landmark Technologies</name>
-		<url>http://landmarktechnologies.com/</url>
+		<name>Fortress Technologies</name>
+		<url>http://Fortresstechnologies.com/</url>
 	</organization>
 
 	<properties>
@@ -96,13 +96,13 @@
 	<distributionManagement>
 	    <repository>
 	      <id>nexus</id>
-	      <name>Landmark Technologies Releases Nexus Repository</name>
+	      <name>FortressTechnologies Releases Nexus Repository</name>
 	      <url> http://172.31.18.29:8081/repository/ebay-bts-releases/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
-	      <name>Landmark Technologies Snapshot Nexus Repository </name>
+	      <name>FortressTechnologies Snapshot Nexus Repository </name>
 	      <url>http://172.31.18.29:8081/repository/ebay-bts-snapshot/</url>
 	    </snapshotRepository>
 	    
